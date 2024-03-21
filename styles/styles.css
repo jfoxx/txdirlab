@@ -220,3 +220,20 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* article template */
+
+@media (width >= 900px) {
+  body.article main {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1200px;
+
+    .section:first-of-type {
+      width: 70%;
+    }
+    .section.col-2 {
+      width: 25%;
+    }
+  }}

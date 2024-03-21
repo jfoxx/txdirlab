@@ -1,0 +1,14 @@
+.page-summary {
+    background-color: #fff9ea;
+    padding: 1.2rem 1.4rem;
+
+    h2 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 1.05rem;
+    }
+
+    p {
+        margin: 0;
+    }
+}

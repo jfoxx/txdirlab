@@ -233,6 +233,7 @@ main .section.highlight {
     .section:first-of-type {
       width: 70%;
     }
+    
     .section.col-2 {
       width: 25%;
     }

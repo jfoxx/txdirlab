@@ -1,14 +1,40 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background: linear-gradient(0deg,#000 0,#03184c 65%,#021d5e 100%)!important;
+  color: white;
   font-size: var(--body-font-size-s);
 }
 
 footer .footer {
   max-width: 1200px;
   margin: auto;
+
+  >div {
+    display: flex;
+    justify-content: space-between;
+    
+    >.section {
+      text-align: right;
+    }
+
+    >.section:first-of-type {
+      width: 200px;
+      text-align: left;
+      font-size: .6rem;
+
+
+      img {
+        max-width: 200px;
+        height: auto;
+      }
+    }
+  }
 }
 
 footer .footer p {
   margin: 0;
+
+  a {
+    color: white;
+  }
 }

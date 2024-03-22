@@ -18,17 +18,10 @@
     }
 
     a.button {
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
         align-items: center;
         background-color: #fff;
-        -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.3);
-        box-shadow: 0 1px 4px 0 rgba(0,0,0,.3);
+        box-shadow: 0 1px 4px 0 rgb(0 0 0/ 30%);
         color: #555;
-        display: -webkit-inline-box;
-        display: -webkit-inline-flex;
-        display: -ms-inline-flexbox;
         display: inline-flex;
         line-height: 1;
         font-size: 1.25rem;

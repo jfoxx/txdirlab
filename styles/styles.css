@@ -220,15 +220,15 @@ main .section.highlight {
     justify-content: center;
     flex-wrap: wrap;
 
-    .section:first-of-type {
-      width: 100%;
-      padding: 0;
-    }
-
     .section {
       width: 50%;
       padding: 20px 10%;
 
+    }
+
+    .section:first-of-type {
+      width: 100%;
+      padding: 0;
     }
 
     .section.col-2 {

@@ -33,7 +33,7 @@ main .hero-container {
     content: '';
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(180deg, rgba(0,37,125,1) 0%, rgba(0,37,125,0.665703781512605) 100%);
+    background: linear-gradient(180deg, rgb(0 37 125) 0%, rgb(0 37 125 / 60%) 100%);
     display: block;
     opacity: .8;
     position: absolute;
